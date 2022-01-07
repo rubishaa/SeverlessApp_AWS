@@ -1,0 +1,1332 @@
+[
+  {
+    "flightNumber": "8901",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "19h 39m",
+      "hours": 19,
+      "minutes": 39
+    },
+    "departureTime": "2022-02-24T03:15:00.000-06:00",
+    "arrivalTime": "2022-02-24T23:54:00.000-05:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "9176",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "18h 48m",
+      "hours": 18,
+      "minutes": 48
+    },
+    "departureTime": "2022-02-24T05:11:00.000-06:00",
+    "arrivalTime": "2022-02-25T00:59:00.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "8618",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "20h 6m",
+      "hours": 20,
+      "minutes": 6
+    },
+    "departureTime": "2022-02-24T07:11:00.000-06:00",
+    "arrivalTime": "2022-02-25T04:17:00.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "7380",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "19h 28m",
+      "hours": 19,
+      "minutes": 28
+    },
+    "departureTime": "2022-02-24T09:14:00.000-06:00",
+    "arrivalTime": "2022-02-25T05:42:00.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "5777",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "18h 40m",
+      "hours": 18,
+      "minutes": 40
+    },
+    "departureTime": "2022-02-24T10:55:00.000-06:00",
+    "arrivalTime": "2022-02-25T06:35:00.000-05:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "3759",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "18h 46m",
+      "hours": 18,
+      "minutes": 46
+    },
+    "departureTime": "2022-02-24T13:09:00.000-06:00",
+    "arrivalTime": "2022-02-25T08:55:00.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "3722",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "20h 39m",
+      "hours": 20,
+      "minutes": 39
+    },
+    "departureTime": "2022-02-24T14:58:00.000-06:00",
+    "arrivalTime": "2022-02-25T12:37:00.000-05:00",
+    "aircraft": {
+      "model": "757",
+      "passengerCapacity": {
+        "total": 176,
+        "main": 160,
+        "first": 16
+      },
+      "speed": 380
+    }
+  },
+  {
+    "flightNumber": "6486",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "20h 15m",
+      "hours": 20,
+      "minutes": 15
+    },
+    "departureTime": "2022-02-24T17:18:00.000-06:00",
+    "arrivalTime": "2022-02-25T14:33:00.000-05:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "3448",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "19h 4m",
+      "hours": 19,
+      "minutes": 4
+    },
+    "departureTime": "2022-02-24T19:14:00.000-06:00",
+    "arrivalTime": "2022-02-25T15:18:00.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "2636",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "18h 30m",
+      "hours": 18,
+      "minutes": 30
+    },
+    "departureTime": "2022-02-24T21:04:00.000-06:00",
+    "arrivalTime": "2022-02-25T16:34:00.000-05:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "5635",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "21h 1m",
+      "hours": 21,
+      "minutes": 1
+    },
+    "departureTime": "2022-02-24T22:46:00.000-06:00",
+    "arrivalTime": "2022-02-25T20:47:00.000-05:00",
+    "aircraft": {
+      "model": "757",
+      "passengerCapacity": {
+        "total": 176,
+        "main": 160,
+        "first": 16
+      },
+      "speed": 380
+    }
+  },
+  {
+    "flightNumber": "6736",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "PHL",
+      "city": "Philadelphia",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.8729,
+        "longitude": -75.2437
+      }
+    },
+    "distance": 7393,
+    "duration": {
+      "locale": "19h 26m",
+      "hours": 19,
+      "minutes": 26
+    },
+    "departureTime": "2022-02-25T00:31:00.000-06:00",
+    "arrivalTime": "2022-02-25T20:57:00.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "2250",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "21h 0m",
+      "hours": 21,
+      "minutes": 0
+    },
+    "departureTime": "2022-02-24T03:38:40.000-06:00",
+    "arrivalTime": "2022-02-24T22:38:40.000-08:00",
+    "aircraft": {
+      "model": "757",
+      "passengerCapacity": {
+        "total": 176,
+        "main": 160,
+        "first": 16
+      },
+      "speed": 380
+    }
+  },
+  {
+    "flightNumber": "2742",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "19h 37m",
+      "hours": 19,
+      "minutes": 37
+    },
+    "departureTime": "2022-02-24T05:51:20.000-06:00",
+    "arrivalTime": "2022-02-24T23:28:20.000-08:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "7609",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "18h 36m",
+      "hours": 18,
+      "minutes": 36
+    },
+    "departureTime": "2022-02-24T08:06:00.000-06:00",
+    "arrivalTime": "2022-02-25T00:42:00.000-08:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "4406",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "19h 54m",
+      "hours": 19,
+      "minutes": 54
+    },
+    "departureTime": "2022-02-24T10:44:40.000-06:00",
+    "arrivalTime": "2022-02-25T04:38:40.000-08:00",
+    "aircraft": {
+      "model": "757",
+      "passengerCapacity": {
+        "total": 176,
+        "main": 160,
+        "first": 16
+      },
+      "speed": 380
+    }
+  },
+  {
+    "flightNumber": "3753",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "19h 47m",
+      "hours": 19,
+      "minutes": 47
+    },
+    "departureTime": "2022-02-24T13:00:20.000-06:00",
+    "arrivalTime": "2022-02-25T06:47:20.000-08:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "2987",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "19h 36m",
+      "hours": 19,
+      "minutes": 36
+    },
+    "departureTime": "2022-02-24T15:17:00.000-06:00",
+    "arrivalTime": "2022-02-25T08:53:00.000-08:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "9930",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "18h 55m",
+      "hours": 18,
+      "minutes": 55
+    },
+    "departureTime": "2022-02-24T17:29:40.000-06:00",
+    "arrivalTime": "2022-02-25T10:24:40.000-08:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "9307",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "18h 37m",
+      "hours": 18,
+      "minutes": 37
+    },
+    "departureTime": "2022-02-24T20:06:20.000-06:00",
+    "arrivalTime": "2022-02-25T12:43:20.000-08:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "7890",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "19h 33m",
+      "hours": 19,
+      "minutes": 33
+    },
+    "departureTime": "2022-02-24T22:38:00.000-06:00",
+    "arrivalTime": "2022-02-25T16:11:00.000-08:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "9235",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SAN",
+      "city": "San Diego",
+      "timezone": "America/Los_Angeles",
+      "location": {
+        "latitude": 32.7338,
+        "longitude": -117.1933
+      }
+    },
+    "distance": 7392,
+    "duration": {
+      "locale": "20h 12m",
+      "hours": 20,
+      "minutes": 12
+    },
+    "departureTime": "2022-02-25T01:23:40.000-06:00",
+    "arrivalTime": "2022-02-25T19:35:40.000-08:00",
+    "aircraft": {
+      "model": "757",
+      "passengerCapacity": {
+        "total": 176,
+        "main": 160,
+        "first": 16
+      },
+      "speed": 380
+    }
+  },
+  {
+    "flightNumber": "1878",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SLC",
+      "city": "Salt Lake City",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 40.7899,
+        "longitude": -111.9791
+      }
+    },
+    "distance": 7028,
+    "duration": {
+      "locale": "19h 2m",
+      "hours": 19,
+      "minutes": 2
+    },
+    "departureTime": "2022-02-24T04:19:34.285-06:00",
+    "arrivalTime": "2022-02-24T23:21:34.285-06:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "1043",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SLC",
+      "city": "Salt Lake City",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 40.7899,
+        "longitude": -111.9791
+      }
+    },
+    "distance": 7028,
+    "duration": {
+      "locale": "20h 20m",
+      "hours": 20,
+      "minutes": 20
+    },
+    "departureTime": "2022-02-24T07:46:08.570-06:00",
+    "arrivalTime": "2022-02-25T04:06:08.570-06:00",
+    "aircraft": {
+      "model": "757",
+      "passengerCapacity": {
+        "total": 176,
+        "main": 160,
+        "first": 16
+      },
+      "speed": 380
+    }
+  },
+  {
+    "flightNumber": "6685",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SLC",
+      "city": "Salt Lake City",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 40.7899,
+        "longitude": -111.9791
+      }
+    },
+    "distance": 7028,
+    "duration": {
+      "locale": "20h 8m",
+      "hours": 20,
+      "minutes": 8
+    },
+    "departureTime": "2022-02-24T11:13:42.855-06:00",
+    "arrivalTime": "2022-02-25T07:21:42.855-06:00",
+    "aircraft": {
+      "model": "757",
+      "passengerCapacity": {
+        "total": 176,
+        "main": 160,
+        "first": 16
+      },
+      "speed": 380
+    }
+  },
+  {
+    "flightNumber": "8825",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SLC",
+      "city": "Salt Lake City",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 40.7899,
+        "longitude": -111.9791
+      }
+    },
+    "distance": 7028,
+    "duration": {
+      "locale": "18h 51m",
+      "hours": 18,
+      "minutes": 51
+    },
+    "departureTime": "2022-02-24T14:35:17.140-06:00",
+    "arrivalTime": "2022-02-25T09:26:17.140-06:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "1743",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SLC",
+      "city": "Salt Lake City",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 40.7899,
+        "longitude": -111.9791
+      }
+    },
+    "distance": 7028,
+    "duration": {
+      "locale": "20h 19m",
+      "hours": 20,
+      "minutes": 19
+    },
+    "departureTime": "2022-02-24T18:02:51.425-06:00",
+    "arrivalTime": "2022-02-25T14:21:51.425-06:00",
+    "aircraft": {
+      "model": "757",
+      "passengerCapacity": {
+        "total": 176,
+        "main": 160,
+        "first": 16
+      },
+      "speed": 380
+    }
+  },
+  {
+    "flightNumber": "5708",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SLC",
+      "city": "Salt Lake City",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 40.7899,
+        "longitude": -111.9791
+      }
+    },
+    "distance": 7028,
+    "duration": {
+      "locale": "18h 43m",
+      "hours": 18,
+      "minutes": 43
+    },
+    "departureTime": "2022-02-24T21:07:25.710-06:00",
+    "arrivalTime": "2022-02-25T15:50:25.710-06:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "8229",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SLC",
+      "city": "Salt Lake City",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 40.7899,
+        "longitude": -111.9791
+      }
+    },
+    "distance": 7028,
+    "duration": {
+      "locale": "19h 41m",
+      "hours": 19,
+      "minutes": 41
+    },
+    "departureTime": "2022-02-25T00:27:59.995-06:00",
+    "arrivalTime": "2022-02-25T20:08:59.995-06:00",
+    "aircraft": {
+      "model": "757",
+      "passengerCapacity": {
+        "total": 176,
+        "main": 160,
+        "first": 16
+      },
+      "speed": 380
+    }
+  },
+  {
+    "flightNumber": "5467",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "SLC",
+      "city": "Salt Lake City",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 40.7899,
+        "longitude": -111.9791
+      }
+    },
+    "distance": 7028,
+    "duration": {
+      "locale": "18h 45m",
+      "hours": 18,
+      "minutes": 45
+    },
+    "departureTime": "2022-02-25T03:32:34.280-06:00",
+    "arrivalTime": "2022-02-25T22:17:34.280-06:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "3203",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "TPA",
+      "city": "Tampa",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 36.1043,
+        "longitude": -79.935
+      }
+    },
+    "distance": 7674,
+    "duration": {
+      "locale": "20h 29m",
+      "hours": 20,
+      "minutes": 29
+    },
+    "departureTime": "2022-02-24T03:17:40.000-06:00",
+    "arrivalTime": "2022-02-25T00:46:40.000-05:00",
+    "aircraft": {
+      "model": "738",
+      "passengerCapacity": {
+        "total": 160,
+        "main": 144,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "1044",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "TPA",
+      "city": "Tampa",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 36.1043,
+        "longitude": -79.935
+      }
+    },
+    "distance": 7674,
+    "duration": {
+      "locale": "20h 27m",
+      "hours": 20,
+      "minutes": 27
+    },
+    "departureTime": "2022-02-24T05:36:20.000-06:00",
+    "arrivalTime": "2022-02-25T03:03:20.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "4516",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "TPA",
+      "city": "Tampa",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 36.1043,
+        "longitude": -79.935
+      }
+    },
+    "distance": 7674,
+    "duration": {
+      "locale": "19h 52m",
+      "hours": 19,
+      "minutes": 52
+    },
+    "departureTime": "2022-02-24T07:50:00.000-06:00",
+    "arrivalTime": "2022-02-25T04:42:00.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "5146",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "TPA",
+      "city": "Tampa",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 36.1043,
+        "longitude": -79.935
+      }
+    },
+    "distance": 7674,
+    "duration": {
+      "locale": "20h 58m",
+      "hours": 20,
+      "minutes": 58
+    },
+    "departureTime": "2022-02-24T10:21:40.000-06:00",
+    "arrivalTime": "2022-02-25T08:19:40.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  },
+  {
+    "flightNumber": "8506",
+    "origin": {
+      "code": "DFW",
+      "city": "Dallas-Fort Worth",
+      "timezone": "America/Chicago",
+      "location": {
+        "latitude": 32.8998,
+        "longitude": 97.0403
+      }
+    },
+    "destination": {
+      "code": "TPA",
+      "city": "Tampa",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 36.1043,
+        "longitude": -79.935
+      }
+    },
+    "distance": 7674,
+    "duration": {
+      "locale": "19h 19m",
+      "hours": 19,
+      "minutes": 19
+    },
+    "departureTime": "2022-02-24T12:30:20.000-06:00",
+    "arrivalTime": "2022-02-25T08:49:20.000-05:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  }
+]

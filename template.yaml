@@ -1,0 +1,174 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  flight-service
+
+
+Globals:
+  Function:
+    Timeout: 60
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+    AllowedValues:
+      - dev
+      - stage
+      - prod
+  AWSEnv:
+    Type: String
+    Default: AWS
+  Table:
+    Type: String
+    Default: Flight
+
+Conditions:
+  IsProduction: !Equals [ !Ref Environment, prod ]
+
+Resources:
+  FlightServiceGatewayApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: !Ref Environment
+      Auth:
+        ApiKeyRequired: true # sets for all methods
+        UsagePlan:
+          CreateUsagePlan: PER_API
+          UsagePlanName: FlightServiceUsagePlan
+          Description: Usage plan for this API
+          Throttle:
+            BurstLimit: 100
+            RateLimit: 50
+      Variables:
+        LAMBDA_ALIAS: !Ref Environment
+
+  GetAllFlightFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: get_all/
+      Handler: app.get_all_flights
+      Runtime: python3.9
+      Architectures:
+        - x86_64
+      AutoPublishAlias: !Ref Environment
+      DeploymentPreference:
+        Type: !If [IsProduction, Linear10PercentEvery1Minute, AllAtOnce]
+        Alarms :
+          - !Ref GetFlightsAliasErrorMetricGreaterThanZeroAlarm
+      Events:
+        AllFlights:
+          Type: Api
+          Properties:
+            RestApiId: !Ref FlightServiceGatewayApi
+            Path: /flights
+            Method: get
+            Auth:
+              ApiKeyRequired: true
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FlightsTable
+      Environment:
+        Variables:
+          AWSENV: !Ref AWSEnv
+          REGION: !Ref "AWS::Region"
+          STAGE: !Ref Environment
+          TABLEN: !Ref Table
+
+
+  InsertDemoDataFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: insert_dummy_data/
+      Handler: app.handle
+      Runtime: python3.9
+      Architectures:
+        - x86_64
+      AutoPublishAlias: !Ref Environment
+      Events:
+        S3Event:
+          Type: S3
+          Properties:
+            Bucket: !Ref FlightServiceDemoBucket
+            Events: s3:ObjectCreated:*
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: suffix
+                    Value: '.json'
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FlightsTable
+        - S3CrudPolicy:
+            BucketName: !Sub 'flight-service-demo-data-upload-env-${Environment}'
+      Environment:
+        Variables:
+          AWSENV: !Ref AWSEnv
+          REGION: !Ref "AWS::Region"
+          STAGE: !Ref Environment
+          TABLEN: !Ref Table
+          BUCKETNAME: !Sub '${AWS::StackName}-demo-data-upload-env-${Environment}'
+
+  FlightsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: "flightNumber"
+          AttributeType: "S"
+      KeySchema:
+        - AttributeName: "flightNumber"
+          KeyType: "HASH"
+      TableName: !Sub "${Table}-${Environment}"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
+
+  FlightServiceDemoBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub '${AWS::StackName}-demo-data-upload-env-${Environment}'
+
+  GetFlightsAliasErrorMetricGreaterThanZeroAlarm :
+     Type: AWS::CloudWatch::Alarm
+     Properties:
+       AlarmDescription: Lambda Function Error > 0
+       ComparisonOperator: GreaterThanThreshold
+       Dimensions:
+         - Name: Resource
+           Value: !Sub '${GetAllFlightFunction}:${Environment}'
+         - Name: FunctionName
+           Value: !Ref GetAllFlightFunction
+       EvaluationPeriods: 2
+       MetricName: Errors
+       Namespace: AWS/Lambda
+       Period: 60
+       Statistic: Sum
+       Threshold: 0
+
+Outputs:
+  # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
+  # Find out more about other implicit resources you can reference within SAM
+  # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
+  GetAllFlightsApi:
+    Description: "API Gateway endpoint URL for Prod stage for get all flights"
+    Value: !Sub "https://${FlightServiceGatewayApi}.execute-api.${AWS::Region}.amazonaws.com/${Environment}/flights/"
+  GetAllFlightFunction:
+    Description: "Get all lambda Function ARN"
+    Value: !GetAtt GetAllFlightFunction.Arn
+  GetAllFlightFunctionIamRole:
+    Description: "Implicit IAM Role created for Get All Flight Function"
+    Value: !GetAtt GetAllFlightFunctionRole.Arn
+
+  FlightsTable:
+    Description: "Flights Table"
+    Value: !Ref FlightsTable
+
+  FlightsTableArn:
+    Description: "Flight Table ARN"
+    Value: !GetAtt FlightsTable.Arn
+
+  InsertDemoDataFunction:
+    Description: "Insert Demo Data"
+    Value: !GetAtt InsertDemoDataFunction.Arn
+  InsertDemoDataFunctionIamRole:
+    Description: "Implicit IAM Role created for Insert Demo Data Function"
+    Value: !GetAtt InsertDemoDataFunctionRole.Arn

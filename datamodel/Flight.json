@@ -1,0 +1,2196 @@
+{
+  "ModelName": "Flight",
+  "ModelMetadata": {
+    "Author": "Group F",
+    "DateCreated": "Dec 31, 2021, 10:52 AM",
+    "DateLastModified": "Dec 31, 2021, 04:24 PM",
+    "Description": "Flights Data",
+    "AWSService": "Amazon DynamoDB",
+    "Version": "3.0"
+  },
+  "DataModel": [
+    {
+      "TableName": "Flights",
+      "KeyAttributes": {
+        "PartitionKey": {
+          "AttributeName": "flightNumber",
+          "AttributeType": "S"
+        }
+      },
+      "NonKeyAttributes": [
+        {
+          "AttributeName": "aircraft",
+          "AttributeType": "M"
+        },
+        {
+          "AttributeName": "arrivalTime",
+          "AttributeType": "S"
+        },
+        {
+          "AttributeName": "departureTime",
+          "AttributeType": "S"
+        },
+        {
+          "AttributeName": "destination",
+          "AttributeType": "M"
+        },
+        {
+          "AttributeName": "distance",
+          "AttributeType": "N"
+        },
+        {
+          "AttributeName": "duration",
+          "AttributeType": "M"
+        },
+        {
+          "AttributeName": "origin",
+          "AttributeType": "M"
+        }
+      ],
+      "TableData": [
+        {
+          "flightNumber": {
+            "S": "6840"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "N": "144"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-02T23:17:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T03:04:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 13m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "13"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "5191"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "176"
+                  },
+                  "main": {
+                    "N": "160"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "757"
+              },
+              "speed": {
+                "N": "380"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T02:37:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T04:52:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "20h 45m"
+              },
+              "hours": {
+                "N": "20"
+              },
+              "minutes": {
+                "N": "45"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "8257"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "176"
+                  },
+                  "main": {
+                    "N": "160"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "757"
+              },
+              "speed": {
+                "N": "380"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T03:39:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T06:41:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 58m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "58"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "8072"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "N": "144"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T05:52:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T08:36:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "20h 16m"
+              },
+              "hours": {
+                "N": "20"
+              },
+              "minutes": {
+                "N": "16"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "7109"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "176"
+                  },
+                  "main": {
+                    "N": "160"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "757"
+              },
+              "speed": {
+                "N": "380"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T06:52:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T10:24:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 28m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "28"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "8224"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "181"
+                  },
+                  "main": {
+                    "N": "165"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "321"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T08:22:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T12:08:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 14m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "14"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "3934"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "181"
+                  },
+                  "main": {
+                    "N": "165"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "321"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T11:21:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T14:09:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "20h 12m"
+              },
+              "hours": {
+                "N": "20"
+              },
+              "minutes": {
+                "N": "12"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "2573"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "N": "144"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T13:05:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T16:28:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 37m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "37"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "3921"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "181"
+                  },
+                  "main": {
+                    "N": "165"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "321"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T15:20:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T18:17:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "20h 3m"
+              },
+              "hours": {
+                "N": "20"
+              },
+              "minutes": {
+                "N": "3"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "5770"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "N": "144"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T17:15:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T20:20:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 55m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "55"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "1812"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "S": "144"
+                  },
+                  "first": {
+                    "S": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T18:52:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T22:26:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 26m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "26"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "3066"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "181"
+                  },
+                  "main": {
+                    "N": "165"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "321"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-03T20:36:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-03T00:29:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 7m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "7"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "1389"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "N": "144"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-02T22:19:00.000-08:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T04:23:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.7338"
+                  },
+                  "longitude": {
+                    "S": "-117.1933"
+                  }
+                }
+              },
+              "code": {
+                "S": "SAN"
+              },
+              "city": {
+                "S": "San Diego"
+              },
+              "timezone": {
+                "S": "America/Los_Angeles"
+              }
+            }
+          },
+          "distance": {
+            "N": "7392"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 56m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "56"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "8137"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacitysengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "N": "144"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-01T20:49:04.614-08:00"
+          },
+          "departureTime": {
+            "S": "2022-02-01T04:02:04.614-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.7338"
+                  },
+                  "longitude": {
+                    "S": "-117.1933"
+                  }
+                }
+              },
+              "code": {
+                "S": "SAN"
+              },
+              "city": {
+                "S": "San Diego"
+              },
+              "timezone": {
+                "S": "America/Los_Angeles"
+              }
+            }
+          },
+          "distance": {
+            "N": "7392"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "18h 47m"
+              },
+              "hours": {
+                "N": "18"
+              },
+              "minutes": {
+                "N": "47"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "4268"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "181"
+                  },
+                  "main": {
+                    "N": "165"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "321"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-01T19:41:32.307-08:00"
+          },
+          "departureTime": {
+            "S": "2022-02-01T02:38:32.307-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.7338"
+                  },
+                  "longitude": {
+                    "S": "-117.1933"
+                  }
+                }
+              },
+              "code": {
+                "S": "SAN"
+              },
+              "city": {
+                "S": "San Diego"
+              },
+              "timezone": {
+                "S": "America/Los_Angeles"
+              }
+            }
+          },
+          "distance": {
+            "N": "7392"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 3m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "3"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "6294"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "181"
+                  },
+                  "main": {
+                    "N": "165"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "321"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-02T22:30:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-02T02:06:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 24m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "24"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "2303"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "N": "144"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-02T19:32:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-01T22:34:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 58m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "58"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "1578"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "181"
+                  },
+                  "main": {
+                    "N": "165"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "321"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-02T14:35:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-01T19:02:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "18h 33m"
+              },
+              "hours": {
+                "N": "18"
+              },
+              "minutes": {
+                "N": "33"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "6317"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "181"
+                  },
+                  "main": {
+                    "N": "165"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "321"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-02T10:58:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-01T15:26:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "18h 32m"
+              },
+              "hours": {
+                "N": "18"
+              },
+              "minutes": {
+                "N": "32"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "9028"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "N": "144"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-02T08:07:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-01T11:41:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "19h 26m"
+              },
+              "hours": {
+                "N": "19"
+              },
+              "minutes": {
+                "N": "26"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "6166"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "160"
+                  },
+                  "main": {
+                    "N": "144"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "738"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-02T03:42:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-01T07:44:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "18h 58m"
+              },
+              "hours": {
+                "N": "18"
+              },
+              "minutes": {
+                "N": "58"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        },
+        {
+          "flightNumber": {
+            "S": "5808"
+          },
+          "aircraft": {
+            "M": {
+              "passengerCapacity": {
+                "M": {
+                  "total": {
+                    "N": "181"
+                  },
+                  "main": {
+                    "N": "165"
+                  },
+                  "first": {
+                    "N": "16"
+                  }
+                }
+              },
+              "model": {
+                "S": "321"
+              },
+              "speed": {
+                "N": "400"
+              }
+            }
+          },
+          "arrivalTime": {
+            "S": "2022-02-02T00:10:00.000-05:00"
+          },
+          "departureTime": {
+            "S": "2022-02-01T04:24:00.000-06:00"
+          },
+          "destination": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "39.8729"
+                  },
+                  "longitude": {
+                    "S": "-75.2437"
+                  }
+                }
+              },
+              "code": {
+                "S": "PHL"
+              },
+              "city": {
+                "S": "Philadelphia"
+              },
+              "timezone": {
+                "S": "America/New_York"
+              }
+            }
+          },
+          "distance": {
+            "N": "7393"
+          },
+          "duration": {
+            "M": {
+              "locale": {
+                "S": "18h 46m"
+              },
+              "hours": {
+                "N": "18"
+              },
+              "minutes": {
+                "N": "46"
+              }
+            }
+          },
+          "origin": {
+            "M": {
+              "location": {
+                "M": {
+                  "latitude": {
+                    "S": "32.8998"
+                  },
+                  "longitude": {
+                    "S": "97.0403"
+                  }
+                }
+              },
+              "code": {
+                "S": "DFW"
+              },
+              "city": {
+                "S": "Dallas-Fort Worth"
+              },
+              "timezone": {
+                "S": "America/Chicago"
+              }
+            }
+          }
+        }
+      ],
+      "DataAccess": {
+        "MySql": {}
+      },
+      "BillingMode": "PROVISIONED",
+      "ProvisionedCapacitySettings": {
+        "ProvisionedThroughput": {
+          "ReadCapacityUnits": 5,
+          "WriteCapacityUnits": 5
+        },
+        "AutoScalingRead": {
+          "ScalableTargetRequest": {
+            "MinCapacity": 1,
+            "MaxCapacity": 10,
+            "ServiceRole": "AWSServiceRoleForApplicationAutoScaling_DynamoDBTable"
+          },
+          "ScalingPolicyConfiguration": {
+            "TargetValue": 70
+          }
+        },
+        "AutoScalingWrite": {
+          "ScalableTargetRequest": {
+            "MinCapacity": 1,
+            "MaxCapacity": 10,
+            "ServiceRole": "AWSServiceRoleForApplicationAutoScaling_DynamoDBTable"
+          },
+          "ScalingPolicyConfiguration": {
+            "TargetValue": 70
+          }
+        }
+      }
+    }
+  ]
+}
